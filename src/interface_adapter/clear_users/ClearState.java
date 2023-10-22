@@ -5,7 +5,7 @@ package interface_adapter.clear_users;
 import java.util.ArrayList;
 
 public class ClearState {
-    private ArrayList<String> user_list;
+    private ArrayList<String> user_list = null;
 
     public ClearState(ClearState copy) {
         user_list = copy.user_list;
